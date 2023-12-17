@@ -79,7 +79,7 @@ container with `CTRL + C` when using the `-it` flag
 
   ```bash
   docker run -it --rm --name my_app IMAGE_NAME
-  docker run -d -p 3000:90 --rm --name my_app IMAGE_NAME
+  docker run -d -p 3000:80 --rm --name my_app IMAGE_NAME
   ```
 
 * Running external(Pre-built) Images:
@@ -134,9 +134,9 @@ COPY . /app
 
 EXPOSE 80
 # EXPOSE - expose ports. Mostly it doesn't work. We have to configure while running the image as below
-# docker run -p 3000:90 IMAGE_NAME
+# docker run -p 3000:80 IMAGE_NAME
 # 3000 - local port under which we want to access in our local machine
-# 90 - internal docker container exposed port; -p publish
+# 80 - internal docker container exposed port; -p publish
 
 CMD ["node", "server.js"]
 # CMD - provides a command and arguments for an executing container. There can be only one CMD.
