@@ -156,3 +156,7 @@ CMD ["node", "server.js"]
 ```bash
 docker tag current_name:tage_name new_name:tag_if_needed
 ```
+
+## Docker images
+
+![image](https://github.com/actionanand/docker_playground/assets/46064269/54698672-b553-4651-ab4e-49bb9f27158d)
