@@ -36,6 +36,10 @@ docker push actionanand/node-app:tagname
 http://localhost:3000/
 ```
 
+## Output
+![image](https://github.com/actionanand/docker_playground/assets/46064269/fbc4b25d-b115-4221-8d47-8df40dfb80a4)
+
+
 ## Other useful commands
 
 * `docker ps`: **List** all **running** containers
