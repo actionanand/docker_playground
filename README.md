@@ -157,6 +157,8 @@ CMD ["node", "server.js"]
 docker tag current_name:tage_name new_name:tag_if_needed
 ```
 
-## Docker images
+## Docker Images and Containers
 
 ![image](https://github.com/actionanand/docker_playground/assets/46064269/54698672-b553-4651-ab4e-49bb9f27158d)
+
+![image](https://github.com/actionanand/docker_playground/assets/46064269/d028a25b-de59-4ebf-abf8-dd47637e4b6e)
