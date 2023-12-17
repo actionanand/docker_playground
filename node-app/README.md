@@ -17,7 +17,7 @@ docker pull actionanand/node-app:Version
 ## How to run this image
 
 ```shell
-docker run -d -p 3000:80 --rm --name node-app actionanand/node-app
+docker run -d -p 3000:80 --rm --name node-app actionanand/node-app:Version
 ```
 
 ## Other useful commands
