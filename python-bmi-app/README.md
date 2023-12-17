@@ -30,6 +30,10 @@ docker tag local-image:tagname new-repo:tagname
 docker push actionanand/python-bmi-app:tagname
 ```
 
+## Output
+![image](https://github.com/actionanand/docker_playground/assets/46064269/c2f5a98d-774e-412c-b1c2-7559e70e8cd5)
+
+
 ## Other useful commands
 
 * `docker ps`: **List** all **running** containers
