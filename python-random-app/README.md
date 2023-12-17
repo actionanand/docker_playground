@@ -30,6 +30,10 @@ docker tag local-image:tagname new-repo:tagname
 docker push actionanand/python-random-app:tagname
 ```
 
+## Output
+
+![image](https://github.com/actionanand/docker_playground/assets/46064269/28c14bb9-11f5-4e53-b3e1-73582268376b)
+
 ## Other useful commands
 
 * `docker ps`: **List** all **running** containers
