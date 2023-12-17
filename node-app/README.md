@@ -2,7 +2,7 @@
 
 ## How to Build this image
 ```bash
-docker build . -t actionanand/node-app:Version
+docker build . -t actionanand/node-app:tagname
 ```
 
 ## How to Pull this image from docker hub
@@ -11,13 +11,29 @@ docker pull actionanand/node-app
 ```
 or
 ```bash
-docker pull actionanand/node-app:Version
+docker pull actionanand/node-app:tagname
 ```
 
 ## How to run this image
 
 ```shell
-docker run -d -p 3000:80 --rm --name node-app actionanand/node-app:Version
+docker run -d -p 3000:80 --rm --name node-app actionanand/node-app:tagname
+```
+
+## How to rename(clone) the image
+```bash
+docker tag local-image:tagname new-repo:tagname
+```
+
+## Pushing local image to docker hub
+```bash
+docker push actionanand/node-app:tagname
+```
+
+## Where to view the app
+
+```
+http://localhost:3000/
 ```
 
 ## Other useful commands
@@ -36,4 +52,5 @@ docker run -d -p 3000:80 --rm --name node-app actionanand/node-app:Version
 * `docker logs container_name`: Will print logs by the container
   * `-f` : follow tag will attach it again to print the future logs in terminal
 
-[GitHub - Docker_Playground](https://github.com/actionanand/docker_playground)
+- [GitHub: Docker_Playground](https://github.com/actionanand/docker_playground)
+- [Docker hub: node-app](https://hub.docker.com/r/actionanand/node-app)
