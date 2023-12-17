@@ -76,7 +76,11 @@ visible, the command prompt / terminal does NOT wait for the container to stop
 prepared to receive input via the command prompt / terminal. You can stop the
 container with `CTRL + C` when using the `-it` flag
   * `--rm` : **Automatically remove the container** when it's **stopped**
-  so, `docker run -it --rm --name my_app IMAGE_NAME`
+
+  ```bash
+  docker run -it --rm --name my_app IMAGE_NAME
+  docker run -d -p 3000:90 --rm --name my_app IMAGE_NAME
+  ```
 
 * Running external(Pre-built) Images:
 ```shell
@@ -128,7 +132,7 @@ RUN npm install
 
 COPY . /app
 
-EXPOSE 90
+EXPOSE 80
 # EXPOSE - expose ports. Mostly it doesn't work. We have to configure while running the image as below
 # docker run -p 3000:90 IMAGE_NAME
 # 3000 - local port under which we want to access in our local machine
@@ -148,3 +152,7 @@ CMD ["node", "server.js"]
 * Let's imagine `node-app` has one folder named `dummy` which a file named `test.txt`. And we have to copy it inside the container name `my_container` inside the folder `test`.
   * `docker cp dummy/test.txt my_container:/test` or `docker cp dummy/. my_container:/test`
   * If you want to copy the `test` folder from docker to local computer inside `dummy` folder, `docker cp my_container:/test dummy`
+* Renaming(cloning) built image: 
+```bash
+docker tag current_name:tage_name new_name:tag_if_needed
+```
