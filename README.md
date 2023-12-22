@@ -1,7 +1,9 @@
-# Docker & Kubernetes: The Practical Guide!
+# Docker & Kubernetes: The Practical Guide! - Docker basics (Section 1)
 
 Docker is a platform that uses OS-level virtualization to deliver software in packages called containers. In short, It's a platform for developing, shipping, and running applications.  It enables developers to package their code and dependencies into a standardized unit called a container. Containers are lightweight and portable, and they can run on any platform that supports Docker.
 Docker is based on the concept of containers, which are isolated environments that run on a host operating system. Each container has its own file system, networking, and processes, and it can be started, stopped, and scaled independently. This makes it easy to deploy and manage applications, and it also helps to improve security and reliability.
+
+* [Next Section - Managing Data and working with volume]()
 
 ## Images
 
