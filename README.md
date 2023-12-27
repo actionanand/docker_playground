@@ -171,6 +171,14 @@ docker tag current_name:tage_name new_name:tag_if_needed
 
 ![image](https://github.com/actionanand/docker_playground/assets/46064269/d028a25b-de59-4ebf-abf8-dd47637e4b6e)
 
+![image](https://github.com/actionanand/docker_playground/assets/46064269/b7cf6516-a8b7-42a0-b180-8e3c0893f628)
+
+![image](https://github.com/actionanand/docker_playground/assets/46064269/af78010d-82b3-4ebb-86c2-1c79f442b6cf)
+
+
+
+
+
 ## Docker Image's public URL
 
 * [actionanand/node-app](https://hub.docker.com/r/actionanand/node-app)
