@@ -148,7 +148,14 @@ CMD ["node", "server.js"]
 * [Digital Ocean](https://www.digitalocean.com/community/tutorials/docker-explained-using-dockerfiles-to-automate-building-of-images)
 
 
-## Copying between container and local machine
+## Copy files/folders between a container and the local filesystem
+
+```bash
+docker cp [OPTIONS] CONTAINER:SRC_PATH DEST_PATH
+docker cp [OPTIONS] SRC_PATH CONTAINER:DEST_PATH
+```
+
+`docker cp --help` is for more help
 
 * Let's imagine `node-app` has one folder named `dummy` which a file named `test.txt`. And we have to copy it inside the container name `my_container` inside the folder `test`.
   * `docker cp dummy/test.txt my_container:/test` or `docker cp dummy/. my_container:/test`
