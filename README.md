@@ -99,6 +99,7 @@ docker run node
 
 * `docker ps`: **List** all **running** containers
   * `-a` : **List** all **containers** - including **stopped** ones
+* `docker ps -f status=exited` will list **only stopped containers**. `-f` or `--filter`
 * `docker images` : **List** all **locally stored images**
 * `docker rm CONTAINER` : **Remove** a container with name `CONTAINER` (you can also use the
 `container id`). You can use multiple container name or ID followed by white space. SO `docker rm CONTAINER_1 CONTAINER_2 CONTAINER_3`
