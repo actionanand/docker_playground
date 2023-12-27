@@ -192,6 +192,9 @@ docker run --name <container_name> <image_name>
 
 ```
 
+![image](https://github.com/actionanand/docker_playground/assets/46064269/88de42e8-d248-42a9-a8f6-d8456e646991)
+
+
 * [How to view the contents of docker images?](https://betterstack.com/community/questions/how-to-view-contents-of-docker-images/)
 
 ## Associated repos:
