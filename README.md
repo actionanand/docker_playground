@@ -161,22 +161,18 @@ docker cp [OPTIONS] SRC_PATH CONTAINER:DEST_PATH
   * `docker cp dummy/test.txt my_container:/test` or `docker cp dummy/. my_container:/test`
   * If you want to copy the `test` folder from docker to local computer inside `dummy` folder, `docker cp my_container:/test dummy`
 * Renaming(cloning) built image: 
+
 ```bash
 docker tag current_name:tage_name new_name:tag_if_needed
 ```
+
+![image](https://github.com/actionanand/docker_playground/assets/46064269/aaac452e-4b34-4ffb-8d0a-13e8a99c8703)
 
 ## Docker Images and Containers
 
 ![image](https://github.com/actionanand/docker_playground/assets/46064269/54698672-b553-4651-ab4e-49bb9f27158d)
 
 ![image](https://github.com/actionanand/docker_playground/assets/46064269/d028a25b-de59-4ebf-abf8-dd47637e4b6e)
-
-![image](https://github.com/actionanand/docker_playground/assets/46064269/b7cf6516-a8b7-42a0-b180-8e3c0893f628)
-
-![image](https://github.com/actionanand/docker_playground/assets/46064269/af78010d-82b3-4ebb-86c2-1c79f442b6cf)
-
-
-
 
 
 ## Docker Image's public URL
@@ -194,16 +190,28 @@ docker tag current_name:tage_name new_name:tag_if_needed
 docker run --name <container_name> <image_name>
 ```
 
-2. Once the container is running, you can use commands such as ls or cat to view the contents of the container
+2. Once the container is running, you can use commands such as `ls` or `cat` to view the contents of the container
 
 ```shell
-
+docker exec <container_name> ls /
 ```
 
 ![image](https://github.com/actionanand/docker_playground/assets/46064269/88de42e8-d248-42a9-a8f6-d8456e646991)
 
-![image](https://github.com/actionanand/docker_playground/assets/46064269/aaac452e-4b34-4ffb-8d0a-13e8a99c8703)
 
+```bash
+docker exec <container_name> cat /path/to/file
+```
+
+![image](https://github.com/actionanand/docker_playground/assets/46064269/b7cf6516-a8b7-42a0-b180-8e3c0893f628)
+
+3. To view the docker image history
+
+```bash
+docker image history my-image:latest
+```
+
+![image](https://github.com/actionanand/docker_playground/assets/46064269/af78010d-82b3-4ebb-86c2-1c79f442b6cf)
 
 
 * [How to view the contents of docker images?](https://betterstack.com/community/questions/how-to-view-contents-of-docker-images/)
@@ -213,4 +221,3 @@ docker run --name <container_name> <image_name>
 1. [Docker Basics](https://github.com/actionanand/docker_playground)
 2. [Managing Data and working with volumes](https://github.com/actionanand/docker_data_volume)
 3. [Docker Communication](https://github.com/actionanand/docker_communication)
-   
