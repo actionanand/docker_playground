@@ -178,6 +178,22 @@ docker tag current_name:tage_name new_name:tag_if_needed
 * [actionanand/python-random-app](https://hub.docker.com/r/actionanand/python-random-app)
 * [actionanand/python-bmi-app](https://hub.docker.com/r/actionanand/python-bmi-app)
 
+### Resources
+
+1. Run the image into the container
+
+```bash
+docker run --name <container_name> <image_name>
+```
+
+2. Once the container is running, you can use commands such as ls or cat to view the contents of the container
+
+```shell
+
+```
+
+* [How to view the contents of docker images?](https://betterstack.com/community/questions/how-to-view-contents-of-docker-images/)
+
 ## Associated repos:
 
 1. [Docker Basics](https://github.com/actionanand/docker_playground)
