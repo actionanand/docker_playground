@@ -224,6 +224,9 @@ docker image history my-image:latest
 
 For raravel
 
+![image](https://github.com/actionanand/docker_playground/assets/46064269/3436131f-21ad-4ef4-8f9a-812e22f34b7f)
+
+
 ![image](https://github.com/actionanand/docker_playground/assets/46064269/33245990-c426-481e-b235-d295cabd695b)
 
 ![image](https://github.com/actionanand/docker_playground/assets/46064269/aa7fda0b-6861-40e8-a0c5-796376fc96bd)
