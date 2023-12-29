@@ -221,31 +221,3 @@ docker image history my-image:latest
 1. [Docker Basics](https://github.com/actionanand/docker_playground)
 2. [Managing Data and working with volumes](https://github.com/actionanand/docker_data_volume)
 3. [Docker Communication](https://github.com/actionanand/docker_communication)
-
-For raravel
-
-![image](https://github.com/actionanand/docker_playground/assets/46064269/3436131f-21ad-4ef4-8f9a-812e22f34b7f)
-
-
-![image](https://github.com/actionanand/docker_playground/assets/46064269/33245990-c426-481e-b235-d295cabd695b)
-
-![image](https://github.com/actionanand/docker_playground/assets/46064269/aa7fda0b-6861-40e8-a0c5-796376fc96bd)
-
-![image](https://github.com/actionanand/docker_playground/assets/46064269/344868c8-3c48-428b-9e75-7ee00ca7a34a)
-
- ![image](https://github.com/actionanand/docker_playground/assets/46064269/13432b23-5fed-4354-88f4-ba548b2250dd)
-
- ![image](https://github.com/actionanand/docker_playground/assets/46064269/6c8b89db-ab1a-498c-881c-63b4f8920895)
-
- ![image](https://github.com/actionanand/docker_playground/assets/46064269/c69169ce-34df-4934-9d80-e1f3f474756b)
-
-![image](https://github.com/actionanand/docker_playground/assets/46064269/1cd217ad-4442-465c-a4b3-cebbe3a810d4)
-
-![image](https://github.com/actionanand/docker_playground/assets/46064269/c96aaded-92c6-4f1c-81bf-359e05be7850)
-
-![image](https://github.com/actionanand/docker_playground/assets/46064269/d2b769a4-d27b-4396-92a3-5337258ae230)
-
-![image](https://github.com/actionanand/docker_playground/assets/46064269/10e24b78-f78e-4b10-9265-349fc6c2e8b9)
-
-![image](https://github.com/actionanand/docker_playground/assets/46064269/a046c7c4-1a52-4285-b7c1-9040ec320365)
-
