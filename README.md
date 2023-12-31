@@ -182,7 +182,7 @@ docker tag current_name:tage_name new_name:tag_if_needed
 * [actionanand/python-random-app](https://hub.docker.com/r/actionanand/python-random-app)
 * [actionanand/python-bmi-app](https://hub.docker.com/r/actionanand/python-bmi-app)
 
-### Resources
+### How to see the files inside docker image
 
 1. Run the image into the container
 
@@ -213,6 +213,7 @@ docker image history my-image:latest
 
 ![image](https://github.com/actionanand/docker_playground/assets/46064269/af78010d-82b3-4ebb-86c2-1c79f442b6cf)
 
+### Resources
 
 * [How to view the contents of docker images?](https://betterstack.com/community/questions/how-to-view-contents-of-docker-images/)
 
