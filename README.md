@@ -182,7 +182,7 @@ docker tag current_name:tage_name new_name:tag_if_needed
 * [actionanand/python-random-app](https://hub.docker.com/r/actionanand/python-random-app)
 * [actionanand/python-bmi-app](https://hub.docker.com/r/actionanand/python-bmi-app)
 
-### How to see the files inside docker image
+## How to see the files inside docker image
 
 1. Run the image into the container
 
